@@ -3,6 +3,10 @@
 
 # COMMAND ----------
 
+# note that these setups are mixing bronze, silver, gold into the same schema -- this is a simplified example that 
+# doesn't seprate into medalion just for simplicity.
+
+
 class SetupHelper():   
     def __init__(self, env):
         Conf = Config()
